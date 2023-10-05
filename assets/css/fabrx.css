@@ -1,3 +1,135 @@
 body{
     background-color: #212121;
 }
+/*Header Başlangıç*/
+.header{    
+    margin: 32px 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    display: block;
+    max-width: 100%;
+}
+.user a{
+color: var(--neutral-white, #FFF);
+font-family: 'Roboto', sans-serif;
+text-align: right;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+text-decoration: none;
+}
+
+.user{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    padding-left:720px;
+}
+
+.user img{
+    border-radius: 50%;
+}
+.icons{
+    display:inline-flex;
+    align-items: center;
+    gap:40px;
+}
+/*Header Son*/
+/*rectangle content*/
+.rectangle {
+    width: 1440px;
+    height: 726px;
+    flex-shrink: 0;
+}
+.rec-content{
+    width: 1110px;
+    height: 550px;
+    flex-shrink: 0; 
+    display: flex;
+    margin: 88px 165px;
+
+}
+.rec-content-text{
+    width: 540px;
+}
+.rec-content-text h2{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 116.667% */
+    letter-spacing: -0.7px; 
+    margin-bottom: 16px;
+}
+.rec-content-text p{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */ 
+    margin-bottom: 29px;
+}
+.rec-content-text-icon{
+    display: flex;
+    gap: 20px;
+}
+#frame{
+    width: 249.018px;
+    height: 504.553px;
+    flex-shrink: 0; 
+}
+.rec-phone-outside{
+    width: 259px;
+    height: 530px; 
+    border-radius: 39.445px;
+    background: #363941; 
+}
+.rec-phone{
+    width: 247px;
+    height: 518px;
+    flex-shrink: 0;
+    border-radius: 35.329px;
+    background: #171717;
+}
+.rec-phone img{
+    padding: 8px 0 0 10px;
+    width: 245.588px;
+    height: 504.553px; 
+    border-radius: 30px;
+}
+.frame{
+    display: flex;
+}
+/*Clients Başlangıç*/
+.clients{
+    width: 1440px;
+    height: 191px;
+    flex-shrink: 0; 
+}
+.clients-logo{
+    margin-top: 24px;
+    display: flex;
+    width: 998.451px;
+    height: 31.004px;
+    justify-content: center;
+    align-items: center;
+    gap: 72.405px;
+    flex-shrink: 0; 
+}
+.clients-content{
+    margin: 56px 165px;
+}
+.clients p {
+    color: #807E7E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
