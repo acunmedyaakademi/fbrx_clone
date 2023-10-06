@@ -191,22 +191,29 @@ text-decoration: none;
     gap: 4px;
 }
 .section-2-content-watch{
-    width: 540px;
-    height: 497.243px;
+    width: 500px;
+    height: 466.243px;
     flex-shrink: 0;
     border-radius: 540px;
     background-color: #121212;
     display: inline-block;
+    position: relative;
+    left:10px;
+    top:10px;
 
 }
 .strap-up{
     position: relative;
-    left: 120px;
+    left: 111px;
+    top: -17px;
+    z-index: 0;
+    
 }
 .strap-down{
     position: relative;
-    top: -120px;
-    left: 130px;
+    top: -160px;
+    left: 113px;
+    z-index: 0;
 }
 .watch-base{
     width: 296.64px;
@@ -214,7 +221,11 @@ text-decoration: none;
     flex-shrink: 0; 
     border-radius: 54.72px;
     background: #1E1E1E; 
-    margin: 0 121.36px 76.99px 122px;
+    position:relative;
+    left:100px;
+    top:-93px;
+    z-index: 1;
+   
 }
 .watch-shadow{
     margin: 10.59px 11.52px 9.62px;
@@ -222,9 +233,10 @@ text-decoration: none;
     height: 323.368px; 
     border-radius: 40.32px;
     background: #1E1E1E; 
+    padding: 10px;
 }
 .watch-shadow img{
     width: 203.198px;
     height: 242.753px;
-    margin: 40px 34.55px 40.55px 35.85px; 
+    margin: 40px 34.55px 40.55px 21.85px; 
 }
