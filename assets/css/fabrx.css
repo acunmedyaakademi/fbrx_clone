@@ -242,6 +242,7 @@ text-decoration: none;
 /*FAQ Başlangıç*/
 .faq{
     width: 1440px;
+    height: 993px;
     margin: 0 auto;
 }
 .faq-content h4{
@@ -284,3 +285,52 @@ text-decoration: none;
     line-height: 28px; /* 175% */ 
 }
 /*FAQ Son*/
+/*call-action başlangıç*/
+.call-action{
+    width: 1440px;
+    height: 6260px; 
+    margin: 0 auto;
+    
+}
+.call-action-content{
+    background-color: black;
+    width: 1110px;
+    height: 349px;
+    margin: 0 auto; 
+    display: flex inline;
+    gap: 158px;
+    margin: 28px 165px 120px 165px;
+}
+.call-action-content-text{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px; /* 120% */
+    letter-spacing: -0.4px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    height: 184px;
+    width: 426px;
+    margin: 83px 0 82px 96px;
+}
+.call-action-content-text button{
+    color: #fff;
+    background-color: rgb(220, 53, 69);
+    display: flex;
+    padding: 16px 72px;
+    align-items: center;
+    gap: 16px; 
+    border-radius: 3px; 
+    border: 0;
+}
+.call-action-content img{
+    width: 368.5px;
+    height: 313px;
+    flex-shrink: 0;
+    margin: 36px 61px 0 0;
+}
+/*call-action SON*/
