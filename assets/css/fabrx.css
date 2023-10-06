@@ -42,8 +42,7 @@ text-decoration: none;
 /*rectangle content*/
 .rectangle {
     width: 1440px;
-    height: 726px;
-    flex-shrink: 0;
+    margin: 0 auto;
 }
 .rec-content{
     width: 1110px;
@@ -79,7 +78,7 @@ text-decoration: none;
     display: flex;
     gap: 20px;
 }
-#frame{
+.frame{
     width: 249.018px;
     height: 504.553px;
     flex-shrink: 0; 
@@ -109,8 +108,7 @@ text-decoration: none;
 /*Clients Başlangıç*/
 .clients{
     width: 1440px;
-    height: 191px;
-    flex-shrink: 0; 
+    margin: 0 auto;
 }
 .clients-logo{
     margin-top: 24px;
@@ -137,8 +135,8 @@ text-decoration: none;
 
 /*section-2 başlangıç*/
 .section-2{
-    height: 752px;
     width: 1440px;
+    margin: 0 auto;
     
 }
 .section-2-content{
