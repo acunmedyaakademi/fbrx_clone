@@ -61,7 +61,7 @@ text-decoration: none;
 
 }
 .rec-content-text{
-    width: 540px;
+    width: 50%;
 }
 .rec-content-text h2{
     color: #FFF;
@@ -87,7 +87,7 @@ text-decoration: none;
     gap: 20px;
 }
 .frame{
-    width: 249.018px;
+    width: 50%;
     height: 504.553px;
     flex-shrink: 0; 
 }
@@ -422,10 +422,12 @@ text-decoration: none;
     
 }
 .content-bot{
-    margin: 25px 165px;
+    width: 1350px;
+    margin: 25px 0 25px 0;
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: space-between;
+    padding-left: 95px;
 }
 .bot-text h4{
     font-family: 'Open Sans', sans-serif;
@@ -440,3 +442,4 @@ text-decoration: none;
     align-items: center;
     gap: 40px; 
 }
+
